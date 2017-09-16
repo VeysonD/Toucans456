@@ -40,15 +40,18 @@ module.exports = function(config) {
       'node_modules/chai/chai.js',
       'client/*.html',
       'test/front-end/*.js',
+      'client/services/*.js',
       'client/*.js',
       'client/components/*.js',
       'client/templates/*.html',
-
+      'client/styles.css'
     ],
 
 
     // list of files to exclude
     exclude: [
+      'client/cloudinary/cloudinaryConfig.js',
+
     ],
 
 
