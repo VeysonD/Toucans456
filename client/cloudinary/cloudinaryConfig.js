@@ -16,14 +16,14 @@ var uploadPhoto = function(inputfilepath, title, tags) {
   var reterivedUrl;
   console.log('upload invoked');
   return cloudinary.uploader.upload(inputfilepath,
-      // { // This sizing might be OK for primary view
+      // { // This sizing is OK for primary view
       //   width: 2000,
       //   height: 1000,
       //   crop: "limit",
       //   effect: 'art:incognito',
       //   tags: ['endive', 'roquefort']
       // },
-      { // This sizing might be OK for thumbnail views
+      { // This sizing is OK for thumbnail views
         public_id: title,
         width: 2000,
         height: 1000,

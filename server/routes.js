@@ -10,7 +10,6 @@ var cloudConfig = require('./../client/cloudinary/cloudinaryConfig');
 
 var multer  = require('multer');
 var upload = multer({ dest: 'uploads/'});
-//clean storage
 
 var app = express();
 app.use(express.static(__dirname + '/../client'));
@@ -117,9 +116,6 @@ app.get('/api/login', (request, response) => {
 
 //Returns all recipes based on what was typed in search bar
 app.get('/api/search', (request, response) => {
-
-
-
   var queryString = "SELECT Recipes.* FROM RecipeTag LEFT JOIN Recipes on RecipeTag.RecipeId = Recipes.id LEFT JOIN Tags on RecipeTag.TagId = Tags.id WHERE Recipes.title like '%" + request.query.query.toString() + "%' OR Tags.tag like '%" + request.query.query.toString() + "%' GROUP BY id"
 
   db.db.query(queryString)
@@ -149,7 +145,6 @@ app.post('/api/signup', (request, response) => {
   db.User.findAll({where: {username: username}})
   .then ((userData) => {
     if(userData.length > 0) {
-      console.log('User already exists');
       response.status(404).send('User already exists')
     } else {
       db.User.create({

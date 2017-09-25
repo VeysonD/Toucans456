@@ -31,23 +31,3 @@ describe('tourist component', function () {
 
 
 });
-
-// describe('app', function () {
-//   var sonicElement, recipeSpy;
-
-//   beforeEach(module('inventory'));
-//   beforeEach(module('templates'));
-
-//   beforeEach(inject(function($rootScope, $compile) {
-//     var sonicScope = $rootScope.$new();
-//     sonicScope.user = 'bob';
-
-//     sonicElement = angualr.element(' <h1>This is the {{$ctrl.user}}!</h1>');
-
-
-//     });
-//   )
-
-
-
-// })
