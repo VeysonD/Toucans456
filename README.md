@@ -1,6 +1,6 @@
 # Recipe Archive
 
-Recipe Archive is a platform to capture, tag, and save handwritten recipes
+> Recipe Archive is a platform to capture, tag, and save handwritten recipes
 
 ![Alt text](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/bc9eaab7d0d0334fd61f391362f18df5-original.png)
 
