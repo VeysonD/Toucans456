@@ -1,7 +1,7 @@
 {
   "name": "toucans456",
   "version": "1.0.0",
-  "description": "Let's write a letter...",
+  "description": "Store your recipes",
   "main": "index.js",
   "scripts": {
     "seed": "node db/seed/seed.js",

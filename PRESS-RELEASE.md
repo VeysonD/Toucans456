@@ -3,9 +3,10 @@
 ## Capture Recipe. Add Tags. Get Cooking. ##
 
 ## Summary ##
-    Our recipe archiver allows users to upload and save photos of their handwritten recipes,
-    as well as add a name and tags to each. The user can then use our search functionality to
-    view recipes by recipe name or tag. Our purpose is to take grandmother's old analog recipes and digitize them, preserving them for future generations.
+    Our recipe archiver allows users to upload and save photos of their handwritten recipes, as well as add a name and tags to each.
+    The user can then use our search functionality to
+    view recipes by recipe name or tag.
+    Our purpose is to take grandmother's old analog recipes and digitize them, preserving them for future generations.
 ## Problem ##
     Have a ton of old handmade cooking recipes passed down from generations?
     That book of recipes is most likely falling apart and won't last forever.

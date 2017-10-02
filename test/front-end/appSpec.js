@@ -7,48 +7,27 @@ describe("A test suite", function() {
 });
 
 describe('tourist component', function () {
-  var element, $controller;
+  var element;
 
   beforeEach(module('app'));
   beforeEach(module('templates'));
 
-  beforeEach(inject(function($controller, $rootScope, $compile) {
+
+  beforeEach(inject(function($rootScope, $compile) {
     var scope = $rootScope.$new();
-    //$controller('RecipeController', {$scope: scope});
-    //console.log('!!!!!!!!!!scope', scope);
-    element = angular.element('<app></app>');
+    element = angular.element('<nav></nav>');
     element = $compile(element)(scope);
-    //$rootScope.$digest();
+    console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+    console.log('THIS IS THE ELEMENT 1', element);
+    $rootScope.$digest();
   }));
 
+  console.log('THIS IS THE ELEMENT 2', element);
 
   it('should have a selectRecipe function on the scope', function() {
-    var $scope = {};
-    //controller = $controller('TouristCtrl', {$scope: $scope});
-    console.log(controller);
+    console.log('THIS IS THE ELEMENT 3', element.isolateScope());
     expect(element.isolateScope().$ctrl.searchRecipe).to.exist;
   });
 
 
-
 });
-
-// describe('app', function () {
-//   var sonicElement, recipeSpy;
-
-//   beforeEach(module('inventory'));
-//   beforeEach(module('templates'));
-
-//   beforeEach(inject(function($rootScope, $compile) {
-//     var sonicScope = $rootScope.$new();
-//     sonicScope.user = 'bob';
-
-//     sonicElement = angualr.element(' <h1>This is the {{$ctrl.user}}!</h1>');
-
-
-//     });
-//   )
-
-
-
-// })
