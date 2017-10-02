@@ -3,26 +3,26 @@
 
 ## Starting the program
 
-0. npm install
+- npm install
 
 --- SEED EXAMPLE DATA ---
 
-1. npm run seed
+- npm run seed
 
 --- RUNNING PROGRAM ---
 
-1. npm start
+- npm start
 
 ## Github Worflow
 
---- SET UP ---
+### Set Up
 
-0.1 fork the repo
-0.2 git clone
-0.3 git remote add origin master (to your own branch)
-0.4 git remote add upstream (to the toucan)
+1. fork the repo
+1. git clone
+1. git remote add origin master (to your own branch)
+1. git remote add upstream (to the toucan)
 
---- SUBMITTING CHANGES TO THE REPO ---
+### Submitting Changes to the Repo
 
 1. git add .
 2. git commit
@@ -58,11 +58,11 @@ git reflog
 - reset --hard xxx
 (the xxx will be the commit ID you get from reflog)
 
-## Remote Server Workflow
+## Digital Ocean Remote Server Workflow [DEPRACATED]
 
 ---SET UP---
 
-0.1 to add a remote live:
+1. to add a remote live:
    in terminal,  under your toucan root directory
    type:
 
@@ -72,11 +72,10 @@ git reflog
 
 --- DEPLOY TO REMOTE SERVER ---
 
-1. follow: steps 1-5 in GitHub Workflow
-2. type: git push live master
+2. follow: steps 1-5 in GitHub Workflow
+3. type: git push live master
 
-## Open Remote Server
-
+## Open Digital Ocean Remote Server [DEPRACATED]
 
 your username : cz, sm, ss
 your password : cz, sm ,ss
@@ -84,20 +83,18 @@ your password : cz, sm ,ss
 1. open terminal, login to remote server by:
        type:  ssh (your username)@107.170.212.197
        password: (your password)
-2. mysql server will be running automatically in the background
+2. MySQL server will be running automatically in the background
 
-   if you want to go into mysql database
+   if you want to go into MySQL database
    type: mysql -u root -p
    password for now is blank, just hit enter
 
-(WE ARE GOING TO CHANGE THE PASSWORD IN AN ENVIRONMENT VARIABLE FOR SECURITY MEASURES LATER)
-
 3. to run server.js:
-
-   cd + ls multiple times until you find the var folder
-   cd /var/toucan/Toucan456
-   npm run seed
-   npm start
+```sh
+cd /var/toucan/Toucan456
+npm run seed
+npm start
+```
 
 4. if nothing is broken:
    you should be able to open this address in your browser:
