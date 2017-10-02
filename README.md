@@ -2,6 +2,8 @@
 
 Recipe Archive is a platform to capture, tag, and save handwritten recipes
 
+![Alt text](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/bc9eaab7d0d0334fd61f391362f18df5-original.png)
+
 ## Table of Contents
 
 1. [Team](#team)
@@ -23,13 +25,11 @@ Recipe Archive is a platform to capture, tag, and save handwritten recipes
 
 ## Screenshots
 
-![Alt text](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/bc9eaab7d0d0334fd61f391362f18df5-original.png)
+[Screenshot 1](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/3bdb73b7690333e3db253a1d44bcb753-original.png)
 
-![Alt text](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/3bdb73b7690333e3db253a1d44bcb753-original.png)
+[Screenshot 2](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/b2e4d7b4b9c585503fa98a2886495069-original.png)
 
-![Alt text](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/b2e4d7b4b9c585503fa98a2886495069-original.png)
-
-![Alt text](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/29112dbd5a2c78d95718cc9918024422-original.png)
+[Screenshot 3](https://s3.amazonaws.com/poly-screenshots.angel.co/Project/89/610189/29112dbd5a2c78d95718cc9918024422-original.png)
 
 ## Usage
 
